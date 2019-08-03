@@ -31,3 +31,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
    bionic stable"
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
+#Generate ssh key
+ssh-keygen -t rsa -C "rishabhbaid1@gmail.com"
+#Install pip
+sudo apt install python3-pip
