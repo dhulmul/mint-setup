@@ -14,3 +14,8 @@ sudo snap install --classic code
 sudo apt-get install terminology
 # Install dconf editor
 sudo apt-get install dconf-editor
+#Install zsh
+sudo apt install zsh
+#Install ohmyzsh specific packages
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+curl -L git.io/antigen > antigen.zsh
