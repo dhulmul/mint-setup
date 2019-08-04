@@ -31,6 +31,8 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
    bionic stable"
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
 #Generate ssh key
 ssh-keygen -t rsa -C "rishabhbaid1@gmail.com"
 #Install pip and pipenv
