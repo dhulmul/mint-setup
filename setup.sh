@@ -45,4 +45,6 @@ sudo apt-get update
 sudo apt-get install -y mongodb-org
 #Install Android Studio
 sudo snap install android-studio --classic
+#Install slack
+sudo snap install slack --classic
 
